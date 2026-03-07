@@ -82,13 +82,12 @@ export default function HeroSection() {
               <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-accent rounded-bl-sm" />
 
               {/* Photo container */}
-              <div className="w-64 h-80 md:w-80 md:h-[26rem] bg-card rounded-xl overflow-hidden relative glow-accent border border-border">
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/50">
-                  <div className="w-20 h-20 rounded-full bg-border/70 mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-semibold text-muted-foreground/40">JV</span>
-                  </div>
-                  <p className="text-xs tracking-widest uppercase">Your Headshot</p>
-                </div>
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden relative glow-accent border-2 border-accent/30">
+                <img
+                  src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69abaa957a02dbc5589fbdd8/210c486d4_A32B76AD-D779-4C02-9C12-968667D6FD6A.jpg"
+                  alt="Javas Vandeway"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
             </div>
           </motion.div>
