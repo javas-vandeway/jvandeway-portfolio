@@ -30,18 +30,6 @@ export default function HeroSection() {
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="order-2 lg:order-1"
           >
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-accent/30 bg-accent/10 mb-6"
-            >
-              <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              <span className="text-xs tracking-widest uppercase text-accent font-medium">
-                Fort Wayne, Indiana
-              </span>
-            </motion.div>
-
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-[750] text-foreground leading-[1.05] mb-4" style={{fontWeight: 750}}>
               Javas
               <br />
