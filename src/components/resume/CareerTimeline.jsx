@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const timelineData = [
+  { year: "2003", role: "IT Help Desk & Systems Administration", company: "BAE Systems Controls & Superior Essex" },
   { year: "2011", role: "IT Leadership & Engineering", company: "Frontier Communications & Brotherhood Mutual" },
   { year: "2015", role: "Manager, Enterprise App Support", company: "Frontier Communications" },
   { year: "2018", role: "Sr. Manager, IT Operations", company: "Frontier Communications" },
