@@ -113,7 +113,7 @@ export default function ExperienceSection() {
                     </h3>
                     <p className="text-muted-foreground text-sm">{exp.company}</p>
                   </div>
-                  <span className="text-xs tracking-widest uppercase text-muted-foreground shrink-0 mt-1">
+                  <span className="text-xs px-3 py-1 rounded-full bg-accent/10 text-accent border border-accent/20 shrink-0 mt-1 font-medium">
                     {exp.period}
                   </span>
                 </div>
@@ -125,7 +125,7 @@ export default function ExperienceSection() {
                 <ul className="space-y-2">
                   {exp.highlights.map((item) => (
                     <li key={item} className="flex items-start gap-3">
-                      <div className="w-1.5 h-1.5 rounded-full bg-muted-foreground mt-2 shrink-0" />
+                      <div className="w-1.5 h-1.5 rounded-full bg-accent mt-2 shrink-0" />
                       <span className="text-muted-foreground text-sm leading-relaxed">{item}</span>
                     </li>
                   ))}

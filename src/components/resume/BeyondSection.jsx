@@ -41,10 +41,11 @@ export default function BeyondSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">05</p>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">05</p>
             <h2 className="text-3xl md:text-4xl font-serif text-foreground">
               Beyond<br />the Office
             </h2>
+            <div className="w-8 h-[2px] bg-accent mt-4" />
             <p className="text-muted-foreground mt-4 leading-relaxed text-sm max-w-xs">
               The person behind the title — what drives me, what grounds me, and what I'm passionate about outside of work.
             </p>
@@ -59,7 +60,7 @@ export default function BeyondSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="p-6 border border-border rounded-sm hover:border-muted-foreground transition-colors duration-300 bg-card"
+                className="p-6 border border-border rounded-xl hover:border-accent/40 transition-all duration-300 bg-card hover:shadow-lg hover:shadow-accent/5"
               >
                 <span className="text-3xl mb-4 block">{item.emoji}</span>
                 <h3 className="text-base font-semibold text-foreground mb-2 tracking-wide">
