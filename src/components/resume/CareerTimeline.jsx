@@ -32,7 +32,7 @@ export default function CareerTimeline() {
           {/* Horizontal line */}
           <div className="absolute top-[28px] left-0 right-0 h-[2px] bg-border" />
 
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
+          <div className="grid grid-cols-4 md:grid-cols-7 gap-2">
             {timelineData.map((item, i) => (
               <motion.div
                 key={item.year}
