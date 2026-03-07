@@ -21,8 +21,8 @@ export default function HeroSection() {
               Fort Wayne, Indiana
             </p>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-semibold text-foreground leading-[1.05] mb-6">
-              Jason<br />
-              Vande Wey
+              Javas<br />
+              Vandeway
             </h1>
             <div className="w-16 h-[2px] bg-foreground mb-6" />
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-md mb-8">

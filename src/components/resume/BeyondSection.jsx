@@ -1,0 +1,78 @@
+import React from "react";
+import { motion } from "framer-motion";
+
+const interests = [
+  {
+    emoji: "🏕️",
+    title: "Outdoors & Adventure",
+    description:
+      "Whether it's hiking trails around Indiana or camping under the stars, being outdoors recharges my mind and keeps me grounded.",
+  },
+  {
+    emoji: "⚙️",
+    title: "Technology Tinkering",
+    description:
+      "My curiosity doesn't stop at work. I love exploring emerging tech, building side projects, and staying ahead of what's coming next.",
+  },
+  {
+    emoji: "📚",
+    title: "Continuous Learning",
+    description:
+      "From leadership books to deep-dive technical reads, I believe the best leaders never stop being students.",
+  },
+  {
+    emoji: "🏡",
+    title: "Family First",
+    description:
+      "Life outside the office revolves around family. Fort Wayne has been a great place to build a life and put down roots.",
+  },
+];
+
+export default function BeyondSection() {
+  return (
+    <section id="beyond" className="py-24 md:py-32 px-6 md:px-10 bg-secondary/40">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
+          {/* Label */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className="lg:col-span-4"
+          >
+            <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">05</p>
+            <h2 className="text-3xl md:text-4xl font-serif text-foreground">
+              Beyond<br />the Office
+            </h2>
+            <p className="text-muted-foreground mt-4 leading-relaxed text-sm max-w-xs">
+              The person behind the title — what drives me, what grounds me, and what I'm passionate about outside of work.
+            </p>
+          </motion.div>
+
+          {/* Cards */}
+          <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {interests.map((item, i) => (
+              <motion.div
+                key={item.title}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.5, delay: i * 0.1 }}
+                className="p-6 border border-border rounded-sm hover:border-muted-foreground transition-colors duration-300 bg-card"
+              >
+                <span className="text-3xl mb-4 block">{item.emoji}</span>
+                <h3 className="text-base font-semibold text-foreground mb-2 tracking-wide">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {item.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

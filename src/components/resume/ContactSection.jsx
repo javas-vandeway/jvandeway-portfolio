@@ -79,7 +79,7 @@ export default function ContactSection() {
       <div className="max-w-6xl mx-auto mt-24 pt-8 border-t border-primary-foreground/10">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs tracking-widest uppercase text-primary-foreground/40">
-            © {new Date().getFullYear()} Jason Vande Wey
+            © {new Date().getFullYear()} Javas Vandeway
           </p>
           <p className="text-xs text-primary-foreground/40">
             All rights reserved
