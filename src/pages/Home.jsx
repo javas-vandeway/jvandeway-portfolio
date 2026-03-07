@@ -16,6 +16,7 @@ export default function Home() {
         <Navigation />
         <HeroSection />
         <AboutSection />
+        <CareerTimeline />
         <ExperienceSection />
         <SkillsSection />
         <BeyondSection />
