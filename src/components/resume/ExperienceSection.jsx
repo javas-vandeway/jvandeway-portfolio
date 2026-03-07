@@ -44,6 +44,7 @@ export default function ExperienceSection() {
             className="lg:col-span-4"
           >
             <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">02</p>
+
             <h2 className="text-3xl md:text-4xl font-serif text-foreground">Experience</h2>
           </motion.div>
 
