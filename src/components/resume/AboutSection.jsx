@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const stats = [
   { number: "20+", label: "Years in IT Leadership" },
+  { number: "$50M+", label: "M&A Integrations" },
   { number: "$16M+", label: "Annual Budget Managed" },
   { number: "1,500+", label: "Users Supported" },
 ];
