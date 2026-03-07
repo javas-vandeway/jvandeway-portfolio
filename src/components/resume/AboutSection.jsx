@@ -27,23 +27,24 @@ export default function AboutSection() {
             className="lg:col-span-8"
           >
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-              Results-driven IT executive with extensive experience leading operations and application 
-              development at enterprise scale. Currently serving as Director of IT Operations and 
-              Application Development for a $5 billion technology company, where I oversee critical 
-              infrastructure, drive digital transformation, and deliver solutions that power business growth.
+              Director of IT with 20+ years of experience leading enterprise IT operations, application 
+              development, cloud platforms, and security programs. Proven executive leader of global 
+              onshore and near-shore teams delivering secure, highly available, and scalable technology 
+              solutions.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8">
-              I bring a unique blend of strategic vision and hands-on technical expertise, with a passion 
-              for building high-performing teams, optimizing processes, and leveraging technology to solve 
-              complex business challenges.
+              Experienced in managing $16M+ budgets, leading M&A technology integrations, and aligning 
+              IT strategy, governance, and roadmaps with business growth, risk management, and compliance. 
+              Trusted partner to executive leadership with deep expertise in modernization, cloud migration, 
+              ITSM maturity, DevOps enablement, and cybersecurity compliance (SOC 2, PCI).
             </p>
 
             {/* Key highlights */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-8 border-t border-border">
               {[
-                { number: "$5B+", label: "Company Revenue" },
-                { number: "15+", label: "Years in IT Leadership" },
-                { number: "100+", label: "Team Members Led" },
+                { number: "20+", label: "Years in IT Leadership" },
+                { number: "$16M+", label: "Annual Budget Managed" },
+                { number: "1,500+", label: "Users Supported" },
               ].map((item, i) => (
                 <motion.div
                   key={item.label}
