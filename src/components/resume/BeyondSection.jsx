@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const interests = [
   {
-    emoji: "🏕️",
-    title: "Outdoors & Adventure",
+    emoji: "✈️",
+    title: "Travel & Adventure",
     description:
-      "Whether it's hiking trails around Indiana or camping under the stars, being outdoors recharges my mind and keeps me grounded.",
+      "Exploring new places, cultures, and perspectives fuels my curiosity and broadens the way I think. Whether it's a domestic road trip or an international adventure, travel reminds me how big — and connected — the world truly is.",
   },
   {
     emoji: "⚙️",
