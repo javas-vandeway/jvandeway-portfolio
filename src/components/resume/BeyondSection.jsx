@@ -10,9 +10,9 @@ const interests = [
   },
   {
     emoji: "⚙️",
-    title: "Technology Tinkering",
+    title: "Exploring Technology",
     description:
-      "My curiosity doesn't stop at work. I love exploring emerging tech, building side projects, and staying ahead of what's coming next.",
+      "My curiosity about technology extends beyond the workplace. I enjoy exploring emerging technologies, experimenting with new tools, and building small projects that help me better understand what's shaping the future of our industry. These explorations keep my perspective fresh and often spark ideas that influence how I approach challenges in my professional work.",
   },
   {
     emoji: "📚",
