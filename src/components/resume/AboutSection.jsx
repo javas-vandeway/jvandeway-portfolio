@@ -48,7 +48,7 @@ export default function AboutSection() {
             </p>
 
             {/* Key highlights */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-border">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-8 border-t border-border">
               {stats.map((item, i) => (
                 <motion.div
                   key={item.label}
