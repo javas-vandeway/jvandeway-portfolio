@@ -92,8 +92,8 @@ export default function ExperienceSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">02</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-foreground">Experience</h2>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent mb-2" style={{fontWeight: 300}}>02</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground">Experience</h2>
             <div className="w-8 h-[2px] bg-accent mt-4" />
           </motion.div>
 
@@ -109,7 +109,7 @@ export default function ExperienceSection() {
               >
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-4 gap-2">
                   <div>
-                    <h3 className="text-xl md:text-2xl font-serif font-semibold text-foreground mb-1">
+                    <h3 className="text-xl md:text-2xl font-medium text-foreground mb-1">
                       {exp.role}
                     </h3>
                     <p className="text-muted-foreground text-sm">{exp.company}</p>

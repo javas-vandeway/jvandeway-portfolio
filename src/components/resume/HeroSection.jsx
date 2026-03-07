@@ -42,13 +42,13 @@ export default function HeroSection() {
               </span>
             </motion.div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-semibold text-foreground leading-[1.05] mb-4">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-[750] text-foreground leading-[1.05] mb-4" style={{fontWeight: 750}}>
               Javas
               <br />
               <span className="gradient-text">Vandeway</span>
             </h1>
 
-            <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-md mb-8 font-light">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-md mb-8 font-light" style={{fontWeight: 300}}>
               Director of IT Operations, App Dev & Sec Ops
               <span className="text-accent mx-2">·</span>
               20+ Years Leading Enterprise Technology
@@ -97,7 +97,7 @@ export default function HeroSection() {
               <div className="w-64 h-80 md:w-80 md:h-[26rem] bg-card rounded-xl overflow-hidden relative glow-accent border border-border">
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-muted-foreground/50">
                   <div className="w-20 h-20 rounded-full bg-border/70 mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-serif text-muted-foreground/40">JV</span>
+                    <span className="text-2xl font-semibold text-muted-foreground/40">JV</span>
                   </div>
                   <p className="text-xs tracking-widest uppercase">Your Headshot</p>
                 </div>

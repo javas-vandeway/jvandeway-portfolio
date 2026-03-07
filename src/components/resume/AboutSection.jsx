@@ -20,8 +20,8 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">01</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-foreground">About</h2>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent mb-2" style={{fontWeight: 300}}>01</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground">About</h2>
             <div className="w-8 h-[2px] bg-accent mt-4" />
           </motion.div>
 
@@ -57,7 +57,7 @@ export default function AboutSection() {
                   transition={{ duration: 0.5, delay: 0.3 + i * 0.1 }}
                   className="p-5 rounded-xl bg-card border border-border hover:border-accent/40 transition-colors duration-300"
                 >
-                  <p className="text-3xl md:text-4xl font-serif font-semibold text-accent mb-1">
+                  <p className="text-3xl md:text-4xl font-semibold text-accent mb-1">
                     {item.number}
                   </p>
                   <p className="text-sm text-muted-foreground">
