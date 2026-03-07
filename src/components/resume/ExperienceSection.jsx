@@ -92,8 +92,9 @@ export default function ExperienceSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-sm tracking-[0.3em] uppercase text-muted-foreground mb-2">02</p>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">02</p>
             <h2 className="text-3xl md:text-4xl font-serif text-foreground">Experience</h2>
+            <div className="w-8 h-[2px] bg-accent mt-4" />
           </motion.div>
 
           {/* Content */}
