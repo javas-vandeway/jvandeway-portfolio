@@ -6,6 +6,7 @@ import AboutSection from "../components/resume/AboutSection";
 import ExperienceSection from "../components/resume/ExperienceSection";
 import SkillsSection from "../components/resume/SkillsSection";
 import BeyondSection from "../components/resume/BeyondSection";
+import CareerTimeline from "../components/resume/CareerTimeline";
 import ContactSection from "../components/resume/ContactSection";
 
 export default function Home() {
