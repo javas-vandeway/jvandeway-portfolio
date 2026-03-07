@@ -41,8 +41,8 @@ export default function BeyondSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">05</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-foreground">
+            <p className="text-xs tracking-[0.3em] uppercase text-accent mb-2" style={{fontWeight: 300}}>05</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground">
               Beyond<br />the Office
             </h2>
             <div className="w-8 h-[2px] bg-accent mt-4" />
@@ -63,7 +63,7 @@ export default function BeyondSection() {
                 className="p-6 border border-border rounded-xl hover:border-accent/40 transition-all duration-300 bg-card hover:shadow-lg hover:shadow-accent/5"
               >
                 <span className="text-3xl mb-4 block">{item.emoji}</span>
-                <h3 className="text-base font-semibold text-foreground mb-2 tracking-wide">
+                <h3 className="text-base font-medium text-foreground mb-2 tracking-wide">
                   {item.title}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">

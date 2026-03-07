@@ -35,7 +35,7 @@ export default function Navigation() {
         }`}
       >
         <div className="max-w-6xl mx-auto px-6 md:px-10 flex items-center justify-between h-16 md:h-20">
-          <a href="#hero" className="font-serif text-xl tracking-tight text-foreground flex items-center gap-1">
+          <a href="#hero" className="font-bold text-xl tracking-tight text-foreground flex items-center gap-1">
             JV
             <span className="w-1.5 h-1.5 rounded-full bg-accent inline-block mb-3" />
           </a>
@@ -96,7 +96,7 @@ export default function Navigation() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.08 }}
                   onClick={() => setMobileOpen(false)}
-                  className="text-2xl font-serif text-foreground tracking-wide hover:text-accent transition-colors"
+                  className="text-2xl font-semibold text-foreground tracking-wide hover:text-accent transition-colors"
                 >
                   {link.label}
                 </motion.a>

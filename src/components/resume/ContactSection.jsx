@@ -15,8 +15,8 @@ export default function ContactSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">04</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-foreground">Get in<br />Touch</h2>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent mb-2" style={{fontWeight: 300}}>04</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground">Get in<br />Touch</h2>
             <div className="w-8 h-[2px] bg-accent mt-4" />
           </motion.div>
 
@@ -43,7 +43,7 @@ export default function ContactSection() {
                     <Mail className="w-4 h-4 text-accent" />
                   </div>
                   <div>
-                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1">Email</p>
+                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Email</p>
                     <p className="text-lg md:text-xl text-foreground">jvandeway@gmail.com</p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ export default function ContactSection() {
                     <Linkedin className="w-4 h-4 text-accent" />
                   </div>
                   <div>
-                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1">LinkedIn</p>
+                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>LinkedIn</p>
                     <p className="text-lg md:text-xl text-foreground">linkedin.com/in/jvandeway</p>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ export default function ContactSection() {
                   <MapPin className="w-4 h-4 text-accent" />
                 </div>
                 <div>
-                  <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1">Location</p>
+                  <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Location</p>
                   <p className="text-lg md:text-xl text-foreground">Fort Wayne, Indiana</p>
                 </div>
               </div>

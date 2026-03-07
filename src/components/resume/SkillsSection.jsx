@@ -53,8 +53,8 @@ export default function SkillsSection() {
             transition={{ duration: 0.6 }}
             className="lg:col-span-4"
           >
-            <p className="text-xs tracking-[0.3em] uppercase text-accent font-medium mb-2">03</p>
-            <h2 className="text-3xl md:text-4xl font-serif text-foreground">Skills &<br />Expertise</h2>
+            <p className="text-xs tracking-[0.3em] uppercase text-accent mb-2" style={{fontWeight: 300}}>03</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-foreground">Skills &<br />Expertise</h2>
             <div className="w-8 h-[2px] bg-accent mt-4" />
           </motion.div>
 
@@ -70,7 +70,7 @@ export default function SkillsSection() {
                 className="p-6 rounded-xl bg-card border border-border hover:border-accent/40 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5"
               >
                 <div className="text-2xl mb-3">{category.icon}</div>
-                <h3 className="text-sm font-semibold text-foreground mb-5 tracking-wide">
+                <h3 className="text-sm font-medium text-foreground mb-5 tracking-wide">
                   {category.title}
                 </h3>
                 <div className="flex flex-wrap gap-2">
