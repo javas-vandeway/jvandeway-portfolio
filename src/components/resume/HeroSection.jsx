@@ -74,12 +74,9 @@ export default function HeroSection() {
             className="order-1 lg:order-2 flex justify-center lg:justify-end"
           >
             <div className="relative">
-              {/* Accent ring */}
-              <div className="absolute -inset-3 rounded-2xl border border-accent/20" />
-              <div className="absolute -inset-6 rounded-2xl border border-accent/10 hidden md:block" />
-              {/* Accent corner decorations */}
-              <div className="absolute -top-3 -right-3 w-6 h-6 border-t-2 border-r-2 border-accent rounded-tr-sm" />
-              <div className="absolute -bottom-3 -left-3 w-6 h-6 border-b-2 border-l-2 border-accent rounded-bl-sm" />
+              {/* Accent rings */}
+              <div className="absolute -inset-3 rounded-full border border-accent/20" />
+              <div className="absolute -inset-6 rounded-full border border-accent/10 hidden md:block" />
 
               {/* Photo container */}
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden relative glow-accent border-2 border-accent/30">
