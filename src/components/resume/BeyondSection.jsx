@@ -21,10 +21,10 @@ const interests = [
       "From leadership books to deep-dive technical reads, I believe the best leaders never stop being students.",
   },
   {
-    emoji: "🏡",
-    title: "Family First",
+    emoji: "🤝",
+    title: "Giving Back",
     description:
-      "Life outside the office revolves around family. Fort Wayne has been a great place to build a life and put down roots.",
+      "Making a positive impact beyond the workplace matters deeply to me. Whether through financial support of causes I believe in or rolling up my sleeves to volunteer, I'm committed to strengthening the communities I'm a part of.",
   },
 ];
 
