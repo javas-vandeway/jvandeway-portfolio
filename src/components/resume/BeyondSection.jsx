@@ -18,7 +18,7 @@ const interests = [
     emoji: "📚",
     title: "Continuous Learning",
     description:
-      "From leadership books to deep-dive technical reads, I believe the best leaders never stop being students.",
+      "In a field where technology and business priorities evolve rapidly, staying curious and continually expanding knowledge is essential. I actively seek new perspectives, technologies, and leadership practices to better support the teams and organizations I serve. This commitment helps me guide teams through change and make thoughtful, informed decisions.",
   },
   {
     emoji: "🤝",
