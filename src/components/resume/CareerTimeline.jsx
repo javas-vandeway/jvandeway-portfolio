@@ -53,7 +53,12 @@ export default function CareerTimeline() {
 
                 {/* Content */}
                 <span className="text-sm font-bold text-accent mb-1">{item.year}</span>
-                <p className="text-xs font-medium text-foreground leading-snug mb-1">{item.role}</p>
+                <a
+                  href="#experience"
+                  className="text-xs font-medium text-foreground leading-snug mb-1 hover:text-accent transition-colors duration-200 cursor-pointer"
+                >
+                  {item.role}
+                </a>
                 <p className="text-xs text-muted-foreground leading-snug">{item.company}</p>
                 {item.current && (
                   <span className="mt-2 text-xs px-2 py-0.5 rounded-full bg-accent text-accent-foreground font-medium">Now</span>
