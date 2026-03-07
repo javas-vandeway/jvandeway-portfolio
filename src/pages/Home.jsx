@@ -19,6 +19,7 @@ export default function Home() {
         <ExperienceSection />
         <SkillsSection />
         <BeyondSection />
+        <CareerTimeline />
         <ContactSection />
       </div>
     </ThemeProvider>
