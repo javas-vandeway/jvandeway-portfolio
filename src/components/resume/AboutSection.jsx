@@ -35,16 +35,13 @@ export default function AboutSection() {
             className="lg:col-span-8"
           >
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-              Director of IT with 20+ years of experience leading enterprise IT operations, application 
-              development, cloud platforms, and security programs. Proven executive leader of global 
-              onshore and near-shore teams delivering secure, highly available, and scalable technology 
-              solutions.
+              I've spent over 20 years building and leading IT organizations through growth, change, and modernization. As a Director of IT, I've worked across infrastructure, application development, cloud, and security—building systems that are not just reliable and secure, but truly enable the business to move faster and smarter.
+            </p>
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
+              I believe the best technology teams are built on people first. I'm passionate about mentoring and developing talent, creating a culture of accountability, and giving teams the clarity and support they need to do their best work. When people are engaged and empowered, the results follow—better systems, stronger execution, and more meaningful impact.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10">
-              Experienced in managing $16M+ budgets, leading M&A technology integrations, and aligning 
-              IT strategy, governance, and roadmaps with business growth, risk management, and compliance. 
-              Trusted partner to executive leadership with deep expertise in modernization, cloud migration, 
-              ITSM maturity, DevOps enablement, and cybersecurity compliance (SOC 2, PCI).
+              My passion sits at the intersection of technology and business strategy. From cloud transformations and M&A integrations to evolving ITSM and DevOps practices, I focus on aligning technology with growth, risk, and long-term scalability. I've led multi-million dollar budgets and complex environments, and I partner closely with executive leadership to turn technology into a true driver of the business—while maintaining strong foundations in security and compliance, including SOC 2 and PCI.
             </p>
 
             {/* Key highlights */}
