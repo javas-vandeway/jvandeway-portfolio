@@ -41,7 +41,7 @@ export default function AboutSection() {
               I believe the best technology teams are built on people first. I'm passionate about mentoring and developing talent, creating a culture of accountability, and giving teams the clarity and support they need to do their best work. When people are engaged and empowered, the results follow—better systems, stronger execution, and more meaningful impact.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-10">
-              My passion sits at the intersection of technology and business strategy. From cloud transformations and M&A integrations to evolving ITSM and DevOps practices, I focus on aligning technology with growth, risk, and long-term scalability. I've led multi-million dollar budgets and complex environments, and I partner closely with executive leadership to turn technology into a true driver of the business—while maintaining strong foundations in security and compliance, including SOC 2 and PCI.
+              My passion sits at the intersection of technology and business strategy. I enjoy tackling complex challenges—from cloud transformations and M&A integrations to evolving ITSM and DevOps practices—always with a focus on aligning technology to what the business truly needs to grow and scale. And if there's an opportunity to build something better—for the business or the team—I'm all in.
             </p>
 
             {/* Key highlights */}
