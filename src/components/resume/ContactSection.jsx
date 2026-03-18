@@ -79,7 +79,7 @@ export default function ContactSection() {
               </div>
 
               <a
-                href="/Javas_Vandeway_Resume.pdf"
+                href="https://media.base44.com/files/public/69abaa957a02dbc5589fbdd8/acd96c112_JavasVandewayDirectorITResumedocx.pdf"
                 download
                 className="group flex items-center justify-between py-6 border-b border-border hover:border-accent/60 transition-colors duration-300"
               >
