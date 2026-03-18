@@ -89,7 +89,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Resume</p>
-                    <p className="text-lg md:text-xl text-foreground">Get Your Own Copy of My Resume</p>
+                    <p className="text-lg md:text-xl text-foreground">Take a Copy of My Resume with You</p>
                   </div>
                 </div>
                 <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
