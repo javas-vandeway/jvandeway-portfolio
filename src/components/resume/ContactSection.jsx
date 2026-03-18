@@ -68,7 +68,7 @@ export default function ContactSection() {
                 <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
               </a>
 
-              <div className="flex items-center gap-4 py-6">
+              <div className="flex items-center gap-4 py-6 border-b border-border">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
                   <MapPin className="w-4 h-4 text-accent" />
                 </div>
@@ -77,6 +77,23 @@ export default function ContactSection() {
                   <p className="text-lg md:text-xl text-foreground">Fort Wayne, Indiana</p>
                 </div>
               </div>
+
+              <a
+                href="/Javas_Vandeway_Resume.pdf"
+                download
+                className="group flex items-center justify-between py-6 border-b border-border hover:border-accent/60 transition-colors duration-300"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Download className="w-4 h-4 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Resume</p>
+                    <p className="text-lg md:text-xl text-foreground">Download PDF</p>
+                  </div>
+                </div>
+                <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
+              </a>
             </div>
           </motion.div>
         </div>
