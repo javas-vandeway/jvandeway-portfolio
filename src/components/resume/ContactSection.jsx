@@ -68,6 +68,22 @@ export default function ContactSection() {
                 <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
               </a>
 
+              <a
+                href="tel:2602670574"
+                className="group flex items-center justify-between py-6 border-b border-border hover:border-accent/60 transition-colors duration-300"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
+                    <Phone className="w-4 h-4 text-accent" />
+                  </div>
+                  <div>
+                    <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Phone</p>
+                    <p className="text-lg md:text-xl text-foreground">260.267.0574</p>
+                  </div>
+                </div>
+                <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
+              </a>
+
               <div className="flex items-center gap-4 py-6 border-b border-border">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
                   <MapPin className="w-4 h-4 text-accent" />
