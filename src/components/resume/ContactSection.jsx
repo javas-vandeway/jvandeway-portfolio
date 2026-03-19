@@ -84,16 +84,6 @@ export default function ContactSection() {
                 <ArrowUpRight className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors duration-300" />
               </a>
 
-              <div className="flex items-center gap-4 py-6 border-b border-border">
-                <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
-                  <MapPin className="w-4 h-4 text-accent" />
-                </div>
-                <div>
-                  <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1" style={{fontWeight: 300}}>Location</p>
-                  <p className="text-lg md:text-xl text-foreground">Fort Wayne, Indiana</p>
-                </div>
-              </div>
-
               <a
                 href="https://media.base44.com/files/public/69abaa957a02dbc5589fbdd8/acd96c112_JavasVandewayDirectorITResumedocx.pdf"
                 download
